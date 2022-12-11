@@ -21,9 +21,9 @@ Do the following:
 */
 const votingage= 18;
  if (votingage >= 18) {
-   console.log('task 1 a:'true);
+   console.log('task 1 a:', true);
  } else {
-    console.log ('task 1 a:'false)
+    console.log ('task 1 a:', false)
  }
 
 
@@ -98,7 +98,7 @@ function dogYears(age){
   return age * 7;
 }
 
-console.log('task 2', dog dogYears(34));
+console.log('task 2', dogYears(34));
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
 
@@ -203,7 +203,7 @@ if(computer <=0.34){
 
 function game(user, computer){
  if(user === computer){
-  return `its a tie`;
+  return `it's a tie`;
  }else if(user === 'rock' && computer === 'scissors'){
   return `you win!`;
  }else if(user === 'paper' && computer === 'rock'){
@@ -253,7 +253,7 @@ Using the feet function below do the following:
 */
 
 function feet(cm){
-  return cm * 0.0328084;
+  return cm/ 30.48;
 }
 
 console.log('task 5b', feet(100));
@@ -273,8 +273,8 @@ Using the annoyingSong function below do the following:
 4. Each time the annoyingSong is run from this loop, it should console.log the string that was returned. 
 */
 
-function annoyingSong(starting number){  
-      for(let i = starting Number; i > 0; i --){
+function annoyingSong(startingNumber){  
+      for(let i = startingNumber; i > 0; i --){
         return `${i} bottles of soda on the wall, ${i} bottles of soda, take one down pass it around ${i-1} bottles of soda on the wall`;
       }
 }
@@ -307,7 +307,7 @@ function grade(score){
     return `you got a C`;
   }else if(score <70 && score >=60){
     return `you got a D`;
-  }else(score <60){
+  }else{
     return `you got an F`;
   }
 }
